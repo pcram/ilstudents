@@ -1,4 +1,7 @@
-angular.module('il.students', ['ngResource'])
+angular.module( 'il.students', [ 'ngResource', 'il.students.studentNameResolver' ])
 
-    .controller('appCtrl', function ($scope) {
-    });
+    .controller( 'appCtrl', [
+		'$scope',
+		function ( $scope ) {
+	    }
+	]);
